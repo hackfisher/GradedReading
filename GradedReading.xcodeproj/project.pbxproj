@@ -23,16 +23,16 @@
 		854B65C51568E4F20012E905 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		854B65C71568E4F20012E905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		854B65C91568E4F20012E905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		854B65CD1568E4F20012E905 /* GradedReading-Info.plist */ = {isa = PBXFileReference; path = "GradedReading-Info.plist"; sourceTree = "<group>"; };
+		854B65CD1568E4F20012E905 /* GradedReading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradedReading-Info.plist"; sourceTree = "<group>"; };
 		854B65CF1568E4F20012E905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		854B65D11568E4F20012E905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		854B65D31568E4F20012E905 /* GradedReading-Prefix.pch */ = {isa = PBXFileReference; path = "GradedReading-Prefix.pch"; sourceTree = "<group>"; };
-		854B65D41568E4F20012E905 /* GRAppDelegate.h */ = {isa = PBXFileReference; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		854B65D31568E4F20012E905 /* GradedReading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradedReading-Prefix.pch"; sourceTree = "<group>"; };
+		854B65D41568E4F20012E905 /* GRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAppDelegate.h; sourceTree = "<group>"; };
 		854B65D51568E4F20012E905 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
 		854B65D81568E4F20012E905 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		854B65DA1568E4F20012E905 /* GRMasterViewController.h */ = {isa = PBXFileReference; path = GRMasterViewController.h; sourceTree = "<group>"; };
+		854B65DA1568E4F20012E905 /* GRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRMasterViewController.h; sourceTree = "<group>"; };
 		854B65DB1568E4F20012E905 /* GRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRMasterViewController.m; sourceTree = "<group>"; };
-		854B65DD1568E4F20012E905 /* GRDetailViewController.h */ = {isa = PBXFileReference; path = GRDetailViewController.h; sourceTree = "<group>"; };
+		854B65DD1568E4F20012E905 /* GRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDetailViewController.h; sourceTree = "<group>"; };
 		854B65DE1568E4F20012E905 /* GRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

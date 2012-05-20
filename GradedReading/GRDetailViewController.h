@@ -9,9 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface GRDetailViewController : UIViewController
+- (IBAction)changeHighLightWords:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITextView *lessonTextView;
+@property (weak, nonatomic) IBOutlet UISlider *levelSlider;
+@property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 
 @property (strong, nonatomic) id detailItem;
 
-@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic) int level;
+
 
 @end

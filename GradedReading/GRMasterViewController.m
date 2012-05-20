@@ -27,10 +27,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    // self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+//    self.navigationItem.rightBarButtonItem = addButton;
+    if (!_objects) {
+        _objects = [[NSMutableArray alloc] initWithObjects:@"nce4_lessons", @"nce4_words", nil];
+    }
+    
+    /*
+    [_objects enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        NSLog(@"The index is %d", (int)idx);
+        
+        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:idx inSection:idx];
+        
+        [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+        //if ([(NSString *)obj isEqualToString:@"Cupertino"]) {
+        //    NSLog(@"We're near the mothership!");
+        //}
+    }];
+     */
 }
 
 - (void)viewDidUnload

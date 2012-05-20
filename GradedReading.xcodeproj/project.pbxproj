@@ -16,6 +16,8 @@
 		854B65D91568E4F20012E905 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854B65D71568E4F20012E905 /* MainStoryboard.storyboard */; };
 		854B65DC1568E4F20012E905 /* GRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B65DB1568E4F20012E905 /* GRMasterViewController.m */; };
 		854B65DF1568E4F20012E905 /* GRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B65DE1568E4F20012E905 /* GRDetailViewController.m */; };
+		854B65EC15693E5A0012E905 /* nce4_lessons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 854B65EB15693E5A0012E905 /* nce4_lessons.txt */; };
+		854B65EE156943650012E905 /* nce4_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 854B65ED156943650012E905 /* nce4_words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		854B65DB1568E4F20012E905 /* GRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRMasterViewController.m; sourceTree = "<group>"; };
 		854B65DD1568E4F20012E905 /* GRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDetailViewController.h; sourceTree = "<group>"; };
 		854B65DE1568E4F20012E905 /* GRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRDetailViewController.m; sourceTree = "<group>"; };
+		854B65E5156939510012E905 /* GradedReading.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GradedReading.entitlements; sourceTree = "<group>"; };
+		854B65EB15693E5A0012E905 /* nce4_lessons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nce4_lessons.txt; path = GradedReading/nce4_lessons.txt; sourceTree = "<group>"; };
+		854B65ED156943650012E905 /* nce4_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nce4_words.txt; path = GradedReading/nce4_words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,8 @@
 		854B65B61568E4F20012E905 = {
 			isa = PBXGroup;
 			children = (
+				854B65ED156943650012E905 /* nce4_words.txt */,
+				854B65EB15693E5A0012E905 /* nce4_lessons.txt */,
 				854B65CB1568E4F20012E905 /* GradedReading */,
 				854B65C41568E4F20012E905 /* Frameworks */,
 				854B65C21568E4F20012E905 /* Products */,
@@ -80,6 +87,7 @@
 		854B65CB1568E4F20012E905 /* GradedReading */ = {
 			isa = PBXGroup;
 			children = (
+				854B65E5156939510012E905 /* GradedReading.entitlements */,
 				854B65D41568E4F20012E905 /* GRAppDelegate.h */,
 				854B65D51568E4F20012E905 /* GRAppDelegate.m */,
 				854B65D71568E4F20012E905 /* MainStoryboard.storyboard */,
@@ -157,6 +165,8 @@
 			files = (
 				854B65D01568E4F20012E905 /* InfoPlist.strings in Resources */,
 				854B65D91568E4F20012E905 /* MainStoryboard.storyboard in Resources */,
+				854B65EC15693E5A0012E905 /* nce4_lessons.txt in Resources */,
+				854B65EE156943650012E905 /* nce4_words.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

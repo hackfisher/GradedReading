@@ -37,7 +37,16 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.lessonTextView.text = [self.detailItem description];
+        NSString *textPath = [[NSString alloc] initWithFormat:@"%@", [self.detailItem description]];
+        
+        NSURL* url = [[NSBundle mainBundle] URLForResource:textPath withExtension:@"txt"];
+        
+        NSLog(@"the path is %@", [url description]);
+        
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        
+        NSLog(@"the length is %d",  [data length]);
+        self.lessonTextView.text = [[NSString alloc] initWithData:data encoding: NSUTF8StringEncoding];
     }
 }
 

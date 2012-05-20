@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		854B65C61568E4F20012E905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854B65C51568E4F20012E905 /* UIKit.framework */; };
+		854B65C81568E4F20012E905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854B65C71568E4F20012E905 /* Foundation.framework */; };
+		854B65CA1568E4F20012E905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854B65C91568E4F20012E905 /* CoreGraphics.framework */; };
+		854B65D01568E4F20012E905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 854B65CE1568E4F20012E905 /* InfoPlist.strings */; };
+		854B65D21568E4F20012E905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B65D11568E4F20012E905 /* main.m */; };
+		854B65D61568E4F20012E905 /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B65D51568E4F20012E905 /* GRAppDelegate.m */; };
+		854B65D91568E4F20012E905 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854B65D71568E4F20012E905 /* MainStoryboard.storyboard */; };
+		854B65DC1568E4F20012E905 /* GRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B65DB1568E4F20012E905 /* GRMasterViewController.m */; };
+		854B65DF1568E4F20012E905 /* GRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B65DE1568E4F20012E905 /* GRDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		854B65C11568E4F20012E905 /* GradedReading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradedReading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		854B65C51568E4F20012E905 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		854B65C71568E4F20012E905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		854B65C91568E4F20012E905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		854B65CD1568E4F20012E905 /* GradedReading-Info.plist */ = {isa = PBXFileReference; path = "GradedReading-Info.plist"; sourceTree = "<group>"; };
+		854B65CF1568E4F20012E905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		854B65D11568E4F20012E905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		854B65D31568E4F20012E905 /* GradedReading-Prefix.pch */ = {isa = PBXFileReference; path = "GradedReading-Prefix.pch"; sourceTree = "<group>"; };
+		854B65D41568E4F20012E905 /* GRAppDelegate.h */ = {isa = PBXFileReference; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		854B65D51568E4F20012E905 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
+		854B65D81568E4F20012E905 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		854B65DA1568E4F20012E905 /* GRMasterViewController.h */ = {isa = PBXFileReference; path = GRMasterViewController.h; sourceTree = "<group>"; };
+		854B65DB1568E4F20012E905 /* GRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRMasterViewController.m; sourceTree = "<group>"; };
+		854B65DD1568E4F20012E905 /* GRDetailViewController.h */ = {isa = PBXFileReference; path = GRDetailViewController.h; sourceTree = "<group>"; };
+		854B65DE1568E4F20012E905 /* GRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854B65BE1568E4F20012E905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854B65C61568E4F20012E905 /* UIKit.framework in Frameworks */,
+				854B65C81568E4F20012E905 /* Foundation.framework in Frameworks */,
+				854B65CA1568E4F20012E905 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		854B65B61568E4F20012E905 = {
+			isa = PBXGroup;
+			children = (
+				854B65CB1568E4F20012E905 /* GradedReading */,
+				854B65C41568E4F20012E905 /* Frameworks */,
+				854B65C21568E4F20012E905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		854B65C21568E4F20012E905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854B65C11568E4F20012E905 /* GradedReading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		854B65C41568E4F20012E905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				854B65C51568E4F20012E905 /* UIKit.framework */,
+				854B65C71568E4F20012E905 /* Foundation.framework */,
+				854B65C91568E4F20012E905 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		854B65CB1568E4F20012E905 /* GradedReading */ = {
+			isa = PBXGroup;
+			children = (
+				854B65D41568E4F20012E905 /* GRAppDelegate.h */,
+				854B65D51568E4F20012E905 /* GRAppDelegate.m */,
+				854B65D71568E4F20012E905 /* MainStoryboard.storyboard */,
+				854B65DA1568E4F20012E905 /* GRMasterViewController.h */,
+				854B65DB1568E4F20012E905 /* GRMasterViewController.m */,
+				854B65DD1568E4F20012E905 /* GRDetailViewController.h */,
+				854B65DE1568E4F20012E905 /* GRDetailViewController.m */,
+				854B65CC1568E4F20012E905 /* Supporting Files */,
+			);
+			path = GradedReading;
+			sourceTree = "<group>";
+		};
+		854B65CC1568E4F20012E905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				854B65CD1568E4F20012E905 /* GradedReading-Info.plist */,
+				854B65CE1568E4F20012E905 /* InfoPlist.strings */,
+				854B65D11568E4F20012E905 /* main.m */,
+				854B65D31568E4F20012E905 /* GradedReading-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854B65C01568E4F20012E905 /* GradedReading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854B65E21568E4F20012E905 /* Build configuration list for PBXNativeTarget "GradedReading" */;
+			buildPhases = (
+				854B65BD1568E4F20012E905 /* Sources */,
+				854B65BE1568E4F20012E905 /* Frameworks */,
+				854B65BF1568E4F20012E905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradedReading;
+			productName = GradedReading;
+			productReference = 854B65C11568E4F20012E905 /* GradedReading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		854B65B81568E4F20012E905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GR;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = HackFisher;
+			};
+			buildConfigurationList = 854B65BB1568E4F20012E905 /* Build configuration list for PBXProject "GradedReading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 854B65B61568E4F20012E905;
+			productRefGroup = 854B65C21568E4F20012E905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				854B65C01568E4F20012E905 /* GradedReading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854B65BF1568E4F20012E905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854B65D01568E4F20012E905 /* InfoPlist.strings in Resources */,
+				854B65D91568E4F20012E905 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		854B65BD1568E4F20012E905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854B65D21568E4F20012E905 /* main.m in Sources */,
+				854B65D61568E4F20012E905 /* GRAppDelegate.m in Sources */,
+				854B65DC1568E4F20012E905 /* GRMasterViewController.m in Sources */,
+				854B65DF1568E4F20012E905 /* GRDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		854B65CE1568E4F20012E905 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854B65CF1568E4F20012E905 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		854B65D71568E4F20012E905 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854B65D81568E4F20012E905 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		854B65E01568E4F20012E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		854B65E11568E4F20012E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		854B65E31568E4F20012E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradedReading/GradedReading-Prefix.pch";
+				INFOPLIST_FILE = "GradedReading/GradedReading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		854B65E41568E4F20012E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradedReading/GradedReading-Prefix.pch";
+				INFOPLIST_FILE = "GradedReading/GradedReading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		854B65BB1568E4F20012E905 /* Build configuration list for PBXProject "GradedReading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854B65E01568E4F20012E905 /* Debug */,
+				854B65E11568E4F20012E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854B65E21568E4F20012E905 /* Build configuration list for PBXNativeTarget "GradedReading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854B65E31568E4F20012E905 /* Debug */,
+				854B65E41568E4F20012E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 854B65B81568E4F20012E905 /* Project object */;
+}

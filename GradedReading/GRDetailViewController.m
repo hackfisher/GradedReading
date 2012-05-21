@@ -45,13 +45,13 @@
         
         self.title = [self.detailItem description];
         
-        NSLog(@"The path is : %@", url);
+        // NSLog(@"The path is : %@", url);
         
         NSData *data = [NSData dataWithContentsOfURL:url];
         
         self.text = [[NSString alloc] initWithData:data encoding: NSUTF8StringEncoding];
         
-        [self changeLevel];
+        [self changeLevel:1 showLevel:YES];
     }
 }
 
@@ -59,8 +59,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    self.level = 1;
     [self configureView];
     
     NSURL* url = [[NSBundle mainBundle] URLForResource:@"nce4_words" withExtension:@"txt"];
@@ -84,6 +82,7 @@
         
         //NSLog(@"The dictionary is  %@", self.dictionary);
     }
+    
 }
 
 - (void)viewDidUnload
@@ -114,23 +113,26 @@
 }
 
 - (void)changeLevel {
+    [self changeLevel:self.level showLevel:self.showLevel];
+}
+
+- (void)changeLevel:(int) level showLevel:(BOOL) show {
     //NSLog(@"The Level changed to %d", self.level);
-    NSLog(@"Th is %d", (int)@"Lesson");
     
-    self.levelLabel.text = [[NSString alloc] initWithFormat:@"Level %d", self.level];
+    self.levelLabel.text = [[NSString alloc] initWithFormat:@"Level %d", level];
     
     NSURL* url = [[NSBundle mainBundle] URLForResource:[self.detailItem description] withExtension:@"txt"];
     
     NSString * showText = [self.text stringByReplacingOccurrencesOfString:@"\n" withString:@"<br>"];
     
-    if (self.showLevel) {
+    if (show) {
         NSMutableSet *values = [[NSMutableSet alloc] init];
         
         GRDetailViewController *view = self;
         
         [showText enumerateSubstringsInRange:NSMakeRange(0, [showText length]) options:NSStringEnumerationByWords usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
             NSString *value = [view.dictionary objectForKey:substring];
-            if (value && [value intValue] <= view.level) {
+            if (value && [value intValue] <= level) {
                 [values addObject:substring];
             }
         }];

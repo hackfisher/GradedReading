@@ -40,7 +40,7 @@
         
         NSArray *fileList = [fileMgr contentsOfDirectoryAtPath:appPath error:&error];
         
-        NSLog(@"The resources dirs is： %@", fileList);
+        // NSLog(@"The resources dirs is： %@", fileList);
         
         _objects = [[NSMutableArray alloc] init];
         

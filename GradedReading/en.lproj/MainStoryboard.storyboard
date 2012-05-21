@@ -87,12 +87,22 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Level 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="pmH-uM-WqZ">
-                                <rect key="frame" x="215" y="15" width="85" height="21"/>
+                                <rect key="frame" x="79" y="0.0" width="75" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="7e7-wq-cgD">
+                                <rect key="frame" x="221" y="9" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="" label="">
+                                    <accessibilityTraits key="traits" none="YES" button="YES"/>
+                                </accessibility>
+                                <connections>
+                                    <action selector="changeHighLightWords:" destination="21" eventType="valueChanged" id="mCu-mz-QZg"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -101,6 +111,7 @@
                         <outlet property="lessonWebView" destination="0bb-35-rvn" id="Xao-vg-Ax8"/>
                         <outlet property="levelLabel" destination="pmH-uM-WqZ" id="ROC-ci-W2h"/>
                         <outlet property="levelSlider" destination="2tp-db-324" id="eaB-ca-TLa"/>
+                        <outlet property="levelSwitch" destination="7e7-wq-cgD" id="fDA-Ow-I0I"/>
                     </connections>
                 </viewController>
             </objects>

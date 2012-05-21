@@ -17,10 +17,12 @@
 @synthesize lessonWebView = _lessonWebView;
 @synthesize levelSlider = _levelSlider;
 @synthesize levelLabel = _levelLabel;
+@synthesize levelSwitch = _levelSwitch;
 @synthesize detailItem = _detailItem;
 @synthesize level = _level;
 @synthesize text = _text;
 @synthesize dictionary = _dictionary;
+@synthesize showLevel = _showLevel;
 
 #pragma mark - Managing the detail item
 
@@ -89,6 +91,7 @@
     [self setLevelLabel:nil];
     [self setLevelSlider:nil];
     [self setLessonWebView:nil];
+    [self setLevelSwitch:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // self.lessonTextView = nil;
@@ -101,9 +104,11 @@
 
 - (IBAction)changeHighLightWords:(id)sender {
     int level = (int)self.levelSlider.value;
+    BOOL show = self.levelSwitch.isOn;
     
-    if (level != self.level) {
+    if (level != self.level || show != self.showLevel) {
         self.level = level;
+        self.showLevel = show;
         [self changeLevel];
     }
 }
@@ -118,20 +123,22 @@
     
     NSString * showText = [self.text stringByReplacingOccurrencesOfString:@"\n" withString:@"<br>"];
     
-    NSMutableSet *values = [[NSMutableSet alloc] init];
-    
-    GRDetailViewController *view = self;
-    
-    [showText enumerateSubstringsInRange:NSMakeRange(0, [showText length]) options:NSStringEnumerationByWords usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
-        NSString *value = [view.dictionary objectForKey:substring];
-        if (value && [value intValue] <= view.level) {
-            [values addObject:substring];
+    if (self.showLevel) {
+        NSMutableSet *values = [[NSMutableSet alloc] init];
+        
+        GRDetailViewController *view = self;
+        
+        [showText enumerateSubstringsInRange:NSMakeRange(0, [showText length]) options:NSStringEnumerationByWords usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+            NSString *value = [view.dictionary objectForKey:substring];
+            if (value && [value intValue] <= view.level) {
+                [values addObject:substring];
+            }
+        }];
+        
+        for (NSString *word in values) {
+            showText = [showText stringByReplacingOccurrencesOfString:word withString:
+                        [NSString stringWithFormat:@"<font color='red'>%@</font>", word]];
         }
-    }];
-    
-    for (NSString *word in values) {
-        showText = [showText stringByReplacingOccurrencesOfString:word withString:
-                    [NSString stringWithFormat:@"<font color='red'>%@</font>", word]];
     }
     
     [self.lessonWebView loadHTMLString:showText baseURL:url];

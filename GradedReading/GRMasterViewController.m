@@ -32,7 +32,27 @@
 //    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
 //    self.navigationItem.rightBarButtonItem = addButton;
     if (!_objects) {
-        _objects = [[NSMutableArray alloc] initWithObjects:@"nce4_lessons", @"nce4_words", nil];
+        NSError *error;
+        
+        NSFileManager *fileMgr = [NSFileManager defaultManager];
+        
+        NSString *appPath = [[NSBundle mainBundle] resourcePath];
+        
+        NSArray *fileList = [fileMgr contentsOfDirectoryAtPath:appPath error:&error];
+        
+        NSLog(@"The resources dirs is： %@", fileList);
+        
+        _objects = [[NSMutableArray alloc] init];
+        
+        for (NSString * file in fileList) {
+            if ([file hasPrefix:@"Lesson_"] && [file hasSuffix:@".txt"]) {
+                [_objects addObject:[file substringToIndex:[file length] - 4]];
+            }
+            
+            //NSString * path = [appPath stringByAppendingPathComponent:file]
+        }
+        
+        //_objects = [[NSMutableArray alloc] initWithObjects:@"Lesson_1", @"Lesson_2", nil];
     }
     
     /*

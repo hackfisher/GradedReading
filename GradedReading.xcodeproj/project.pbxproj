@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850EC57A156A544B003DEB32 /* Lesson_10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC54A156A544B003DEB32 /* Lesson_10.txt */; };
+		850EC57B156A544B003DEB32 /* Lesson_11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC54B156A544B003DEB32 /* Lesson_11.txt */; };
+		850EC57C156A544B003DEB32 /* Lesson_12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC54C156A544B003DEB32 /* Lesson_12.txt */; };
+		850EC57D156A544B003DEB32 /* Lesson_13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC54D156A544B003DEB32 /* Lesson_13.txt */; };
+		850EC57E156A544B003DEB32 /* Lesson_14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC54E156A544B003DEB32 /* Lesson_14.txt */; };
+		850EC57F156A544B003DEB32 /* Lesson_15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC54F156A544B003DEB32 /* Lesson_15.txt */; };
+		850EC580156A544B003DEB32 /* Lesson_16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC550156A544B003DEB32 /* Lesson_16.txt */; };
+		850EC581156A544B003DEB32 /* Lesson_17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC551156A544B003DEB32 /* Lesson_17.txt */; };
+		850EC582156A544B003DEB32 /* Lesson_18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC552156A544B003DEB32 /* Lesson_18.txt */; };
+		850EC583156A544B003DEB32 /* Lesson_19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC553156A544B003DEB32 /* Lesson_19.txt */; };
+		850EC584156A544B003DEB32 /* Lesson_20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC554156A544B003DEB32 /* Lesson_20.txt */; };
+		850EC585156A544B003DEB32 /* Lesson_21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC555156A544B003DEB32 /* Lesson_21.txt */; };
+		850EC586156A544B003DEB32 /* Lesson_22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC556156A544B003DEB32 /* Lesson_22.txt */; };
+		850EC587156A544B003DEB32 /* Lesson_23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC557156A544B003DEB32 /* Lesson_23.txt */; };
+		850EC588156A544B003DEB32 /* Lesson_24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC558156A544B003DEB32 /* Lesson_24.txt */; };
+		850EC589156A544B003DEB32 /* Lesson_25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC559156A544B003DEB32 /* Lesson_25.txt */; };
+		850EC58A156A544B003DEB32 /* Lesson_26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC55A156A544B003DEB32 /* Lesson_26.txt */; };
+		850EC58B156A544B003DEB32 /* Lesson_27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC55B156A544B003DEB32 /* Lesson_27.txt */; };
+		850EC58C156A544B003DEB32 /* Lesson_28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC55C156A544B003DEB32 /* Lesson_28.txt */; };
+		850EC58D156A544B003DEB32 /* Lesson_29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC55D156A544B003DEB32 /* Lesson_29.txt */; };
+		850EC58E156A544B003DEB32 /* Lesson_30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC55E156A544B003DEB32 /* Lesson_30.txt */; };
+		850EC58F156A544B003DEB32 /* Lesson_31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC55F156A544B003DEB32 /* Lesson_31.txt */; };
+		850EC590156A544B003DEB32 /* Lesson_32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC560156A544B003DEB32 /* Lesson_32.txt */; };
+		850EC591156A544B003DEB32 /* Lesson_33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC561156A544B003DEB32 /* Lesson_33.txt */; };
+		850EC592156A544B003DEB32 /* Lesson_34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC562156A544B003DEB32 /* Lesson_34.txt */; };
+		850EC593156A544B003DEB32 /* Lesson_35.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC563156A544B003DEB32 /* Lesson_35.txt */; };
+		850EC594156A544B003DEB32 /* Lesson_36.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC564156A544B003DEB32 /* Lesson_36.txt */; };
+		850EC595156A544B003DEB32 /* Lesson_37.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC565156A544B003DEB32 /* Lesson_37.txt */; };
+		850EC596156A544B003DEB32 /* Lesson_38.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC566156A544B003DEB32 /* Lesson_38.txt */; };
+		850EC597156A544B003DEB32 /* Lesson_39.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC567156A544B003DEB32 /* Lesson_39.txt */; };
+		850EC598156A544B003DEB32 /* Lesson_41.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC568156A544B003DEB32 /* Lesson_41.txt */; };
+		850EC599156A544B003DEB32 /* Lesson_42.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC569156A544B003DEB32 /* Lesson_42.txt */; };
+		850EC59A156A544B003DEB32 /* Lesson_43.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC56A156A544B003DEB32 /* Lesson_43.txt */; };
+		850EC59B156A544B003DEB32 /* Lesson_44.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC56B156A544B003DEB32 /* Lesson_44.txt */; };
+		850EC59C156A544B003DEB32 /* Lesson_45.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC56C156A544B003DEB32 /* Lesson_45.txt */; };
+		850EC59D156A544B003DEB32 /* Lesson_46.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC56D156A544B003DEB32 /* Lesson_46.txt */; };
+		850EC59E156A544B003DEB32 /* Lesson_47.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC56E156A544B003DEB32 /* Lesson_47.txt */; };
+		850EC59F156A544B003DEB32 /* Lesson_48.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC56F156A544B003DEB32 /* Lesson_48.txt */; };
+		850EC61F156A6698003DEB32 /* Lesson_01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC616156A6698003DEB32 /* Lesson_01.txt */; };
+		850EC620156A6698003DEB32 /* Lesson_02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC617156A6698003DEB32 /* Lesson_02.txt */; };
+		850EC621156A6698003DEB32 /* Lesson_03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC618156A6698003DEB32 /* Lesson_03.txt */; };
+		850EC622156A6698003DEB32 /* Lesson_04.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC619156A6698003DEB32 /* Lesson_04.txt */; };
+		850EC623156A6698003DEB32 /* Lesson_05.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC61A156A6698003DEB32 /* Lesson_05.txt */; };
+		850EC624156A6698003DEB32 /* Lesson_06.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC61B156A6698003DEB32 /* Lesson_06.txt */; };
+		850EC625156A6698003DEB32 /* Lesson_07.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC61C156A6698003DEB32 /* Lesson_07.txt */; };
+		850EC626156A6698003DEB32 /* Lesson_08.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC61D156A6698003DEB32 /* Lesson_08.txt */; };
+		850EC627156A6698003DEB32 /* Lesson_09.txt in Resources */ = {isa = PBXBuildFile; fileRef = 850EC61E156A6698003DEB32 /* Lesson_09.txt */; };
 		854B65C61568E4F20012E905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854B65C51568E4F20012E905 /* UIKit.framework */; };
 		854B65C81568E4F20012E905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854B65C71568E4F20012E905 /* Foundation.framework */; };
 		854B65CA1568E4F20012E905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854B65C91568E4F20012E905 /* CoreGraphics.framework */; };
@@ -21,6 +68,53 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850EC54A156A544B003DEB32 /* Lesson_10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_10.txt; sourceTree = "<group>"; };
+		850EC54B156A544B003DEB32 /* Lesson_11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_11.txt; sourceTree = "<group>"; };
+		850EC54C156A544B003DEB32 /* Lesson_12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_12.txt; sourceTree = "<group>"; };
+		850EC54D156A544B003DEB32 /* Lesson_13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_13.txt; sourceTree = "<group>"; };
+		850EC54E156A544B003DEB32 /* Lesson_14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_14.txt; sourceTree = "<group>"; };
+		850EC54F156A544B003DEB32 /* Lesson_15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_15.txt; sourceTree = "<group>"; };
+		850EC550156A544B003DEB32 /* Lesson_16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_16.txt; sourceTree = "<group>"; };
+		850EC551156A544B003DEB32 /* Lesson_17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_17.txt; sourceTree = "<group>"; };
+		850EC552156A544B003DEB32 /* Lesson_18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_18.txt; sourceTree = "<group>"; };
+		850EC553156A544B003DEB32 /* Lesson_19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_19.txt; sourceTree = "<group>"; };
+		850EC554156A544B003DEB32 /* Lesson_20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_20.txt; sourceTree = "<group>"; };
+		850EC555156A544B003DEB32 /* Lesson_21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_21.txt; sourceTree = "<group>"; };
+		850EC556156A544B003DEB32 /* Lesson_22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_22.txt; sourceTree = "<group>"; };
+		850EC557156A544B003DEB32 /* Lesson_23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_23.txt; sourceTree = "<group>"; };
+		850EC558156A544B003DEB32 /* Lesson_24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_24.txt; sourceTree = "<group>"; };
+		850EC559156A544B003DEB32 /* Lesson_25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_25.txt; sourceTree = "<group>"; };
+		850EC55A156A544B003DEB32 /* Lesson_26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_26.txt; sourceTree = "<group>"; };
+		850EC55B156A544B003DEB32 /* Lesson_27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_27.txt; sourceTree = "<group>"; };
+		850EC55C156A544B003DEB32 /* Lesson_28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_28.txt; sourceTree = "<group>"; };
+		850EC55D156A544B003DEB32 /* Lesson_29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_29.txt; sourceTree = "<group>"; };
+		850EC55E156A544B003DEB32 /* Lesson_30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_30.txt; sourceTree = "<group>"; };
+		850EC55F156A544B003DEB32 /* Lesson_31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_31.txt; sourceTree = "<group>"; };
+		850EC560156A544B003DEB32 /* Lesson_32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_32.txt; sourceTree = "<group>"; };
+		850EC561156A544B003DEB32 /* Lesson_33.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_33.txt; sourceTree = "<group>"; };
+		850EC562156A544B003DEB32 /* Lesson_34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_34.txt; sourceTree = "<group>"; };
+		850EC563156A544B003DEB32 /* Lesson_35.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_35.txt; sourceTree = "<group>"; };
+		850EC564156A544B003DEB32 /* Lesson_36.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_36.txt; sourceTree = "<group>"; };
+		850EC565156A544B003DEB32 /* Lesson_37.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_37.txt; sourceTree = "<group>"; };
+		850EC566156A544B003DEB32 /* Lesson_38.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_38.txt; sourceTree = "<group>"; };
+		850EC567156A544B003DEB32 /* Lesson_39.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_39.txt; sourceTree = "<group>"; };
+		850EC568156A544B003DEB32 /* Lesson_41.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_41.txt; sourceTree = "<group>"; };
+		850EC569156A544B003DEB32 /* Lesson_42.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_42.txt; sourceTree = "<group>"; };
+		850EC56A156A544B003DEB32 /* Lesson_43.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_43.txt; sourceTree = "<group>"; };
+		850EC56B156A544B003DEB32 /* Lesson_44.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_44.txt; sourceTree = "<group>"; };
+		850EC56C156A544B003DEB32 /* Lesson_45.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_45.txt; sourceTree = "<group>"; };
+		850EC56D156A544B003DEB32 /* Lesson_46.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_46.txt; sourceTree = "<group>"; };
+		850EC56E156A544B003DEB32 /* Lesson_47.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_47.txt; sourceTree = "<group>"; };
+		850EC56F156A544B003DEB32 /* Lesson_48.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_48.txt; sourceTree = "<group>"; };
+		850EC616156A6698003DEB32 /* Lesson_01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_01.txt; sourceTree = "<group>"; };
+		850EC617156A6698003DEB32 /* Lesson_02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_02.txt; sourceTree = "<group>"; };
+		850EC618156A6698003DEB32 /* Lesson_03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_03.txt; sourceTree = "<group>"; };
+		850EC619156A6698003DEB32 /* Lesson_04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_04.txt; sourceTree = "<group>"; };
+		850EC61A156A6698003DEB32 /* Lesson_05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_05.txt; sourceTree = "<group>"; };
+		850EC61B156A6698003DEB32 /* Lesson_06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_06.txt; sourceTree = "<group>"; };
+		850EC61C156A6698003DEB32 /* Lesson_07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_07.txt; sourceTree = "<group>"; };
+		850EC61D156A6698003DEB32 /* Lesson_08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_08.txt; sourceTree = "<group>"; };
+		850EC61E156A6698003DEB32 /* Lesson_09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lesson_09.txt; sourceTree = "<group>"; };
 		854B65C11568E4F20012E905 /* GradedReading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradedReading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		854B65C51568E4F20012E905 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		854B65C71568E4F20012E905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,6 +149,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850EC53B156A544B003DEB32 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				850EC53F156A544B003DEB32 /* Unit_1 */,
+				850EC549156A544B003DEB32 /* Unit_2 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		850EC53F156A544B003DEB32 /* Unit_1 */ = {
+			isa = PBXGroup;
+			children = (
+				850EC616156A6698003DEB32 /* Lesson_01.txt */,
+				850EC617156A6698003DEB32 /* Lesson_02.txt */,
+				850EC618156A6698003DEB32 /* Lesson_03.txt */,
+				850EC619156A6698003DEB32 /* Lesson_04.txt */,
+				850EC61A156A6698003DEB32 /* Lesson_05.txt */,
+				850EC61B156A6698003DEB32 /* Lesson_06.txt */,
+				850EC61C156A6698003DEB32 /* Lesson_07.txt */,
+				850EC61D156A6698003DEB32 /* Lesson_08.txt */,
+				850EC61E156A6698003DEB32 /* Lesson_09.txt */,
+			);
+			path = Unit_1;
+			sourceTree = "<group>";
+		};
+		850EC549156A544B003DEB32 /* Unit_2 */ = {
+			isa = PBXGroup;
+			children = (
+				850EC54A156A544B003DEB32 /* Lesson_10.txt */,
+				850EC54B156A544B003DEB32 /* Lesson_11.txt */,
+				850EC54C156A544B003DEB32 /* Lesson_12.txt */,
+				850EC54D156A544B003DEB32 /* Lesson_13.txt */,
+				850EC54E156A544B003DEB32 /* Lesson_14.txt */,
+				850EC54F156A544B003DEB32 /* Lesson_15.txt */,
+				850EC550156A544B003DEB32 /* Lesson_16.txt */,
+				850EC551156A544B003DEB32 /* Lesson_17.txt */,
+				850EC552156A544B003DEB32 /* Lesson_18.txt */,
+				850EC553156A544B003DEB32 /* Lesson_19.txt */,
+				850EC554156A544B003DEB32 /* Lesson_20.txt */,
+				850EC555156A544B003DEB32 /* Lesson_21.txt */,
+				850EC556156A544B003DEB32 /* Lesson_22.txt */,
+				850EC557156A544B003DEB32 /* Lesson_23.txt */,
+				850EC558156A544B003DEB32 /* Lesson_24.txt */,
+				850EC559156A544B003DEB32 /* Lesson_25.txt */,
+				850EC55A156A544B003DEB32 /* Lesson_26.txt */,
+				850EC55B156A544B003DEB32 /* Lesson_27.txt */,
+				850EC55C156A544B003DEB32 /* Lesson_28.txt */,
+				850EC55D156A544B003DEB32 /* Lesson_29.txt */,
+				850EC55E156A544B003DEB32 /* Lesson_30.txt */,
+				850EC55F156A544B003DEB32 /* Lesson_31.txt */,
+				850EC560156A544B003DEB32 /* Lesson_32.txt */,
+				850EC561156A544B003DEB32 /* Lesson_33.txt */,
+				850EC562156A544B003DEB32 /* Lesson_34.txt */,
+				850EC563156A544B003DEB32 /* Lesson_35.txt */,
+				850EC564156A544B003DEB32 /* Lesson_36.txt */,
+				850EC565156A544B003DEB32 /* Lesson_37.txt */,
+				850EC566156A544B003DEB32 /* Lesson_38.txt */,
+				850EC567156A544B003DEB32 /* Lesson_39.txt */,
+				850EC568156A544B003DEB32 /* Lesson_41.txt */,
+				850EC569156A544B003DEB32 /* Lesson_42.txt */,
+				850EC56A156A544B003DEB32 /* Lesson_43.txt */,
+				850EC56B156A544B003DEB32 /* Lesson_44.txt */,
+				850EC56C156A544B003DEB32 /* Lesson_45.txt */,
+				850EC56D156A544B003DEB32 /* Lesson_46.txt */,
+				850EC56E156A544B003DEB32 /* Lesson_47.txt */,
+				850EC56F156A544B003DEB32 /* Lesson_48.txt */,
+			);
+			path = Unit_2;
+			sourceTree = "<group>";
+		};
 		854B65B61568E4F20012E905 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +267,7 @@
 		854B65CC1568E4F20012E905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				850EC53B156A544B003DEB32 /* resources */,
 				854B65CD1568E4F20012E905 /* GradedReading-Info.plist */,
 				854B65CE1568E4F20012E905 /* InfoPlist.strings */,
 				854B65D11568E4F20012E905 /* main.m */,
@@ -167,6 +332,53 @@
 				854B65D91568E4F20012E905 /* MainStoryboard.storyboard in Resources */,
 				854B65EC15693E5A0012E905 /* nce4_lessons.txt in Resources */,
 				854B65EE156943650012E905 /* nce4_words.txt in Resources */,
+				850EC61F156A6698003DEB32 /* Lesson_01.txt in Resources */,
+				850EC620156A6698003DEB32 /* Lesson_02.txt in Resources */,
+				850EC621156A6698003DEB32 /* Lesson_03.txt in Resources */,
+				850EC622156A6698003DEB32 /* Lesson_04.txt in Resources */,
+				850EC623156A6698003DEB32 /* Lesson_05.txt in Resources */,
+				850EC624156A6698003DEB32 /* Lesson_06.txt in Resources */,
+				850EC625156A6698003DEB32 /* Lesson_07.txt in Resources */,
+				850EC626156A6698003DEB32 /* Lesson_08.txt in Resources */,
+				850EC627156A6698003DEB32 /* Lesson_09.txt in Resources */,
+				850EC57A156A544B003DEB32 /* Lesson_10.txt in Resources */,
+				850EC57B156A544B003DEB32 /* Lesson_11.txt in Resources */,
+				850EC57C156A544B003DEB32 /* Lesson_12.txt in Resources */,
+				850EC57D156A544B003DEB32 /* Lesson_13.txt in Resources */,
+				850EC57E156A544B003DEB32 /* Lesson_14.txt in Resources */,
+				850EC57F156A544B003DEB32 /* Lesson_15.txt in Resources */,
+				850EC580156A544B003DEB32 /* Lesson_16.txt in Resources */,
+				850EC581156A544B003DEB32 /* Lesson_17.txt in Resources */,
+				850EC582156A544B003DEB32 /* Lesson_18.txt in Resources */,
+				850EC583156A544B003DEB32 /* Lesson_19.txt in Resources */,
+				850EC584156A544B003DEB32 /* Lesson_20.txt in Resources */,
+				850EC585156A544B003DEB32 /* Lesson_21.txt in Resources */,
+				850EC586156A544B003DEB32 /* Lesson_22.txt in Resources */,
+				850EC587156A544B003DEB32 /* Lesson_23.txt in Resources */,
+				850EC588156A544B003DEB32 /* Lesson_24.txt in Resources */,
+				850EC589156A544B003DEB32 /* Lesson_25.txt in Resources */,
+				850EC58A156A544B003DEB32 /* Lesson_26.txt in Resources */,
+				850EC58B156A544B003DEB32 /* Lesson_27.txt in Resources */,
+				850EC58C156A544B003DEB32 /* Lesson_28.txt in Resources */,
+				850EC58D156A544B003DEB32 /* Lesson_29.txt in Resources */,
+				850EC58E156A544B003DEB32 /* Lesson_30.txt in Resources */,
+				850EC58F156A544B003DEB32 /* Lesson_31.txt in Resources */,
+				850EC590156A544B003DEB32 /* Lesson_32.txt in Resources */,
+				850EC591156A544B003DEB32 /* Lesson_33.txt in Resources */,
+				850EC592156A544B003DEB32 /* Lesson_34.txt in Resources */,
+				850EC593156A544B003DEB32 /* Lesson_35.txt in Resources */,
+				850EC594156A544B003DEB32 /* Lesson_36.txt in Resources */,
+				850EC595156A544B003DEB32 /* Lesson_37.txt in Resources */,
+				850EC596156A544B003DEB32 /* Lesson_38.txt in Resources */,
+				850EC597156A544B003DEB32 /* Lesson_39.txt in Resources */,
+				850EC598156A544B003DEB32 /* Lesson_41.txt in Resources */,
+				850EC599156A544B003DEB32 /* Lesson_42.txt in Resources */,
+				850EC59A156A544B003DEB32 /* Lesson_43.txt in Resources */,
+				850EC59B156A544B003DEB32 /* Lesson_44.txt in Resources */,
+				850EC59C156A544B003DEB32 /* Lesson_45.txt in Resources */,
+				850EC59D156A544B003DEB32 /* Lesson_46.txt in Resources */,
+				850EC59E156A544B003DEB32 /* Lesson_47.txt in Resources */,
+				850EC59F156A544B003DEB32 /* Lesson_48.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +504,7 @@
 				854B65E41568E4F20012E905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

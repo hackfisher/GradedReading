@@ -11,13 +11,15 @@
 @interface GRDetailViewController : UIViewController
 - (IBAction)changeHighLightWords:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UITextView *lessonTextView;
+@property (weak, nonatomic) IBOutlet UIWebView *lessonWebView;
 @property (weak, nonatomic) IBOutlet UISlider *levelSlider;
 @property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 
 @property (strong, nonatomic) id detailItem;
 
 @property (nonatomic) int level;
+@property (copy, nonatomic) NSString *text;
 
+@property (strong, nonatomic) NSMutableDictionary *dictionary;
 
 @end

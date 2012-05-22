@@ -51,7 +51,7 @@
         
         self.text = [[NSString alloc] initWithData:data encoding: NSUTF8StringEncoding];
         
-        [self changeLevel:1 showLevel:YES];
+        [self changeLevel];
     }
 }
 
@@ -59,7 +59,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    
+    [self.levelSlider setValue:1];
+    [self.levelSwitch setOn:YES];
     
     NSURL* url = [[NSBundle mainBundle] URLForResource:@"nce4_words" withExtension:@"txt"];
     
@@ -83,6 +85,7 @@
         //NSLog(@"The dictionary is  %@", self.dictionary);
     }
     
+    [self configureView];
 }
 
 - (void)viewDidUnload
@@ -102,47 +105,44 @@
 }
 
 - (IBAction)changeHighLightWords:(id)sender {
+    [self changeLevel];
+}
+
+- (void)changeLevel {
     int level = (int)self.levelSlider.value;
     BOOL show = self.levelSwitch.isOn;
     
     if (level != self.level || show != self.showLevel) {
         self.level = level;
         self.showLevel = show;
-        [self changeLevel];
-    }
-}
-
-- (void)changeLevel {
-    [self changeLevel:self.level showLevel:self.showLevel];
-}
-
-- (void)changeLevel:(int) level showLevel:(BOOL) show {
-    //NSLog(@"The Level changed to %d", self.level);
-    
-    self.levelLabel.text = [[NSString alloc] initWithFormat:@"Level %d", level];
-    
-    NSURL* url = [[NSBundle mainBundle] URLForResource:[self.detailItem description] withExtension:@"txt"];
-    
-    NSString * showText = [self.text stringByReplacingOccurrencesOfString:@"\n" withString:@"<br>"];
-    
-    if (show) {
-        NSMutableSet *values = [[NSMutableSet alloc] init];
         
-        GRDetailViewController *view = self;
+        //NSLog(@"The Level changed to %d", self.level);
         
-        [showText enumerateSubstringsInRange:NSMakeRange(0, [showText length]) options:NSStringEnumerationByWords usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
-            NSString *value = [view.dictionary objectForKey:substring];
-            if (value && [value intValue] <= level) {
-                [values addObject:substring];
+        self.levelLabel.text = [[NSString alloc] initWithFormat:@"Level %d", level];
+        
+        NSURL* url = [[NSBundle mainBundle] URLForResource:[self.detailItem description] withExtension:@"txt"];
+        
+        NSString * showText = [self.text stringByReplacingOccurrencesOfString:@"\n" withString:@"<br>"];
+        
+        if (show) {
+            NSMutableSet *values = [[NSMutableSet alloc] init];
+            
+            GRDetailViewController *view = self;
+            
+            [showText enumerateSubstringsInRange:NSMakeRange(0, [showText length]) options:NSStringEnumerationByWords usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+                NSString *value = [view.dictionary objectForKey:substring];
+                if (value && [value intValue] <= view.level) {
+                    [values addObject:substring];
+                }
+            }];
+            
+            for (NSString *word in values) {
+                showText = [showText stringByReplacingOccurrencesOfString:word withString:
+                            [NSString stringWithFormat:@"<font color='red'>%@</font>", word]];
             }
-        }];
-        
-        for (NSString *word in values) {
-            showText = [showText stringByReplacingOccurrencesOfString:word withString:
-                        [NSString stringWithFormat:@"<font color='red'>%@</font>", word]];
         }
+        
+        [self.lessonWebView loadHTMLString:showText baseURL:url];
     }
-    
-    [self.lessonWebView loadHTMLString:showText baseURL:url];
 }
 @end
